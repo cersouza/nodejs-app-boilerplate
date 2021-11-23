@@ -22,7 +22,7 @@ npm run dev
 
 ```
 
-## 4. Run UI tests :test_tube:
+## 4. Run tests :test_tube:
 
 ```bash
 npm run test

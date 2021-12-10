@@ -1,7 +1,7 @@
 import { ErrorRequestHandler } from 'express';
 import { StatusCodes } from 'http-status-codes';
-import InvalidRequestError from '../../domain/Exceptions/InvalidRequestError';
-import RegisterNotFoundError from '../../domain/Exceptions/RegisterNotFoundError';
+import InvalidRequestError from '../../domain/exceptions/InvalidRequestError';
+import RegisterNotFoundError from '../../domain/exceptions/RegisterNotFoundError';
 
 const defineStatusCode = (error: Error) => {
   switch (error.name) {

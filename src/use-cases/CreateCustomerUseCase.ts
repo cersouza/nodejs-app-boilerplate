@@ -1,4 +1,4 @@
-import InvalidRequestError from '../domain/Exceptions/InvalidRequestError';
+import InvalidRequestError from '../domain/exceptions/InvalidRequestError';
 import ICustomer from '../domain/interfaces/ICustomer';
 import type ICustomerRepository from '../domain/interfaces/ICustomerRepository';
 import type ICreateCustomerRequest from '../domain/interfaces/requests/ICreateCustomerRequest';

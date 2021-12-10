@@ -1,6 +1,6 @@
 import * as faker from 'faker/locale/pt_BR';
 import CreateCustomerUseCase from '../../use-cases/CreateCustomerUseCase';
-import InvalidRequestError from '../../domain/Exceptions/InvalidRequestError';
+import InvalidRequestError from '../../domain/exceptions/InvalidRequestError';
 import ICreateCustomerRequest, { CustomerWithoutId } from '../../domain/interfaces/requests/ICreateCustomerRequest';
 import { getValidCreateCustomerRequest } from '../utils/generateObjects';
 import CustomerRepositoryMock from '../utils/repositories';

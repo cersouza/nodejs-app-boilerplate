@@ -1,6 +1,6 @@
 import * as faker from 'faker/locale/pt_BR';
 import ListCustomersUseCase from '../../use-cases/ListCustomersUseCase';
-import RegisterNotFoundError from '../../domain/Exceptions/RegisterNotFoundError';
+import RegisterNotFoundError from '../../domain/exceptions/RegisterNotFoundError';
 import IListCustomersRequest from '../../domain/interfaces/requests/IListCustomersRequest';
 import getValidCustomer from '../utils/generateObjects';
 import CustomerRepositoryMock from '../utils/repositories';

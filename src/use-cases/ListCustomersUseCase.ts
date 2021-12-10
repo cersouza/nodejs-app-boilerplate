@@ -1,4 +1,4 @@
-import RegisterNotFoundError from '../domain/Exceptions/RegisterNotFoundError';
+import RegisterNotFoundError from '../domain/exceptions/RegisterNotFoundError';
 import ICustomer from '../domain/interfaces/ICustomer';
 import ICustomerRepository from '../domain/interfaces/ICustomerRepository';
 import IListCustomersRequest from '../domain/interfaces/requests/IListCustomersRequest';

@@ -1,5 +1,5 @@
 import * as faker from 'faker/locale/pt_BR';
-import CreateCustomerUseCase from '../../app/CreateCustomerUseCase';
+import CreateCustomerUseCase from '../../use-cases/CreateCustomerUseCase';
 import InvalidRequestError from '../../domain/Exceptions/InvalidRequestError';
 import ICreateCustomerRequest, { CustomerWithoutId } from '../../domain/interfaces/requests/ICreateCustomerRequest';
 import { getValidCreateCustomerRequest } from '../utils/generateObjects';

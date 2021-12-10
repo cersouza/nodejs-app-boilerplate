@@ -1,5 +1,5 @@
-import CreateCustomerUseCase from '../app/CreateCustomerUseCase';
-import ListCustomersUseCase from '../app/ListCustomersUseCase';
+import CreateCustomerUseCase from '../use-cases/CreateCustomerUseCase';
+import ListCustomersUseCase from '../use-cases/ListCustomersUseCase';
 import LocalCustomerRepository from './repositories/LocalCustomerRepository';
 
 const CustomerRepository = new LocalCustomerRepository();
